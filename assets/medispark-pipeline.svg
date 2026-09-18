@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1026"/><stop offset="55%" stop-color="#141A3F"/><stop offset="100%" stop-color="#2A1458"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7DD3FC"/><stop offset="50%" stop-color="#A78BFA"/><stop offset="100%" stop-color="#F0ABFC"/>
+    </linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>.t{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+      .m{font-family:Consolas,'SF Mono',Menlo,'Courier New',monospace}</style></defs>
+<rect width="1200" height="330" rx="16" fill="url(#bg)"/><rect width="1200" height="330" rx="16" fill="url(#grid)"/><rect x="0.5" y="0.5" width="1199" height="329" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<text x="36" y="46" class="m" font-size="15" fill="#7DD3FC">medispark</text>
+<text x="130" y="46" class="m" font-size="13" fill="#94A3B8">// 4 datasets → HDFS → 6-stage Spark pipeline → live patient risk feed</text>
+<rect x="36" y="96" width="122" height="28" rx="6" fill="#0F172A" stroke="#7DD3FC" stroke-opacity="0.6"/><text x="97" y="115" text-anchor="middle" class="m" font-size="12" fill="#E2E8F0">heart.csv</text>
+<rect x="36" y="138" width="122" height="28" rx="6" fill="#0F172A" stroke="#7DD3FC" stroke-opacity="0.6"/><text x="97" y="157" text-anchor="middle" class="m" font-size="12" fill="#E2E8F0">diabetes.csv</text>
+<rect x="36" y="180" width="122" height="28" rx="6" fill="#0F172A" stroke="#7DD3FC" stroke-opacity="0.6"/><text x="97" y="199" text-anchor="middle" class="m" font-size="12" fill="#E2E8F0">stroke.csv</text>
+<rect x="36" y="222" width="122" height="28" rx="6" fill="#0F172A" stroke="#7DD3FC" stroke-opacity="0.6"/><text x="97" y="241" text-anchor="middle" class="m" font-size="12" fill="#E2E8F0">lung.csv</text>
+<g transform="translate(225,96)"><path d="M0 7 V33 A28 7 0 0 0 56 33 V7" fill="#0F172A" stroke="#A78BFA" stroke-width="1.3"/><ellipse cx="28" cy="7" rx="28" ry="7" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.3"/><text x="28" y="30" text-anchor="middle" class="m" font-size="10" fill="#C4B5FD">dn1</text></g>
+<g transform="translate(225,151)"><path d="M0 7 V33 A28 7 0 0 0 56 33 V7" fill="#0F172A" stroke="#A78BFA" stroke-width="1.3"/><ellipse cx="28" cy="7" rx="28" ry="7" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.3"/><text x="28" y="30" text-anchor="middle" class="m" font-size="10" fill="#C4B5FD">dn2</text></g>
+<g transform="translate(225,206)"><path d="M0 7 V33 A28 7 0 0 0 56 33 V7" fill="#0F172A" stroke="#A78BFA" stroke-width="1.3"/><ellipse cx="28" cy="7" rx="28" ry="7" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.3"/><text x="28" y="30" text-anchor="middle" class="m" font-size="10" fill="#C4B5FD">dn3</text></g>
+<text x="253" y="280" text-anchor="middle" class="m" font-size="12" fill="#A78BFA">HDFS</text>
+<path d="M158 110 C 190 110, 195 118, 225 118" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="-4" y="-4" width="8" height="8" rx="2" fill="#7DD3FC" filter="url(#glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0.0s" path="M158 110 C 190 110, 195 118, 225 118"/></rect>
+<path d="M158 152 C 190 152, 195 173, 225 173" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="-4" y="-4" width="8" height="8" rx="2" fill="#7DD3FC" filter="url(#glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="-0.4s" path="M158 152 C 190 152, 195 173, 225 173"/></rect>
+<path d="M158 194 C 190 194, 195 228, 225 228" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="-4" y="-4" width="8" height="8" rx="2" fill="#7DD3FC" filter="url(#glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="-0.8s" path="M158 194 C 190 194, 195 228, 225 228"/></rect>
+<path d="M158 236 C 190 236, 195 118, 225 118" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="3 4"/>
+<rect x="-4" y="-4" width="8" height="8" rx="2" fill="#7DD3FC" filter="url(#glow)"><animateMotion dur="1.6s" repeatCount="indefinite" begin="-1.2000000000000002s" path="M158 236 C 190 236, 195 118, 225 118"/></rect>
+<rect x="314" y="100" width="700" height="150" rx="12" fill="#FFFFFF" fill-opacity="0.02" stroke="#E25A1C" stroke-opacity="0.55" stroke-dasharray="6 5"/>
+<text x="326" y="122" class="m" font-size="12" fill="#FB923C">spark cluster · 1 master + 2 workers</text>
+<path d="M281 173 H330" stroke="#475569" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="330" y1="175" x2="998" y2="175" stroke="#334155" stroke-width="2"/>
+<rect x="330" y="149" width="98" height="52" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"><animate attributeName="stroke" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0010;0.0550;0.1750;1.0000" values="#475569;#475569;#FB923C;#475569;#475569" /></rect>
+<text x="379.0" y="169" text-anchor="middle" class="m" font-size="11" fill="#94A3B8">stage 1</text>
+<text x="379.0" y="188" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#E2E8F0">Ingest</text>
+<rect x="444" y="149" width="98" height="52" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"><animate attributeName="stroke" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.1230;0.1830;0.3030;1.0000" values="#475569;#475569;#FB923C;#475569;#475569" /></rect>
+<text x="493.0" y="169" text-anchor="middle" class="m" font-size="11" fill="#94A3B8">stage 2</text>
+<text x="493.0" y="188" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#E2E8F0">Clean</text>
+<rect x="558" y="149" width="98" height="52" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"><animate attributeName="stroke" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.2510;0.3110;0.4310;1.0000" values="#475569;#475569;#FB923C;#475569;#475569" /></rect>
+<text x="607.0" y="169" text-anchor="middle" class="m" font-size="11" fill="#94A3B8">stage 3</text>
+<text x="607.0" y="188" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#E2E8F0">Features</text>
+<rect x="672" y="149" width="98" height="52" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"><animate attributeName="stroke" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.3790;0.4390;0.5590;1.0000" values="#475569;#475569;#FB923C;#475569;#475569" /></rect>
+<text x="721.0" y="169" text-anchor="middle" class="m" font-size="11" fill="#94A3B8">stage 4</text>
+<text x="721.0" y="188" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#E2E8F0">Train</text>
+<rect x="786" y="149" width="98" height="52" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"><animate attributeName="stroke" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.5070;0.5670;0.6870;1.0000" values="#475569;#475569;#FB923C;#475569;#475569" /></rect>
+<text x="835.0" y="169" text-anchor="middle" class="m" font-size="11" fill="#94A3B8">stage 5</text>
+<text x="835.0" y="188" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#E2E8F0">Stream</text>
+<rect x="900" y="149" width="98" height="52" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"><animate attributeName="stroke" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.6350;0.6950;0.8150;1.0000" values="#475569;#475569;#FB923C;#475569;#475569" /></rect>
+<text x="949.0" y="169" text-anchor="middle" class="m" font-size="11" fill="#94A3B8">stage 6</text>
+<text x="949.0" y="188" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#E2E8F0">Evaluate</text>
+<circle cx="330" cy="209" r="5" fill="#FB923C" filter="url(#glow)"><animate attributeName="cx" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.7500;1.0000" values="330;998;998" /><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0.0000;0.0300;0.7500;0.7800;1.0000" values="0;1;1;0;0" /></circle>
+<line x1="330" y1="209" x2="998" y2="209" stroke="#FB923C" stroke-opacity="0.15" stroke-width="1"/>
+<text x="1094.0" y="122" text-anchor="middle" class="m" font-size="12" fill="#CBD5E1">live risk feed</text>
+<circle cx="1028" cy="150" r="6" fill="#4ADE80" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="175" r="6" fill="#4ADE80" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-0.5s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="200" r="6" fill="#FBBF24" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-1.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-1.0s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="150" r="6" fill="#4ADE80" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-1.5s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="175" r="6" fill="#F87171" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-2.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-2.0s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="200" r="6" fill="#4ADE80" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-2.5s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="150" r="6" fill="#FBBF24" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-3.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-3.0s" repeatCount="indefinite"/></circle>
+<circle cx="1028" cy="175" r="6" fill="#4ADE80" filter="url(#glow)"><animate attributeName="cx" from="1028" to="1160" dur="4s" begin="-3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" begin="-3.5s" repeatCount="indefinite"/></circle>
+<circle cx="1020" cy="238" r="4" fill="#4ADE80"/><text x="1028" y="242" class="m" font-size="10" fill="#94A3B8">healthy</text>
+<circle cx="1082" cy="238" r="4" fill="#FBBF24"/><text x="1090" y="242" class="m" font-size="10" fill="#94A3B8">moderate</text>
+<circle cx="1152" cy="238" r="4" fill="#F87171"/><text x="1160" y="242" class="m" font-size="10" fill="#94A3B8">high</text>
+<text x="36" y="308" class="m" font-size="12" fill="#64748B">Scala · Spark MLlib · Structured Streaming · HDFS · Docker · Flask + Chart.js</text>
+</svg>
