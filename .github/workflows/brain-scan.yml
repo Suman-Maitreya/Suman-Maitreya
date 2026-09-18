@@ -1,0 +1,26 @@
+name: Update brain scan
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # daily at 06:00 IST
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate brain scan
+        run: python scripts/brain_scan.py "${{ github.repository_owner }}" assets/brain-scan.svg
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add assets/brain-scan.svg
+          git diff --cached --quiet || (git commit -m "🧠 update brain scan" && git push)
