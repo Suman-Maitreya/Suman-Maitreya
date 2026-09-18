@@ -1,4 +1,6 @@
-<h1 align="center">Hi, I'm Suman Maitreya 👋</h1>
+<p align="center">
+  <img src="./banner.svg" alt="Suman Maitreya M" width="100%" />
+</p>
 
 <p align="center">
   <a href="https://github.com/Suman-Maitreya">
